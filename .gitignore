@@ -1,0 +1,18 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时本地数据库（公开试验快照，不入库）
+oncopilot/data/*.db
+oncopilot/data/tmp/
+
+# 生成的匹配报告（保留导出脚本，不保留产物）
+oncopilot/reports/match_report_*
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
